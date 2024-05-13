@@ -29,7 +29,8 @@ final class DatabaseManager{
                                                             "postal_code":user.address.postalCode,
                                                             "country":user.address.country,
                                                             "latitude":user.address.latitude,
-                                                            "longitude":user.address.longitude]
+                                                            "longitude":user.address.longitude],
+                                                 "type": user.type
                                                 ],withCompletionBlock: {[weak self] error, _ in
             guard let strongSelf  = self else{
                 return
@@ -53,7 +54,8 @@ final class DatabaseManager{
                                    "postal_code":user.address.postalCode,
                                    "country":user.address.country,
                                    "latitude":user.address.latitude,
-                                   "longitude":user.address.longitude]
+                                   "longitude":user.address.longitude],
+                        "type": user.type
                     ]
                     usersCollection.append(newElement)
                     strongSelf.database.child("hospitals").setValue(usersCollection,withCompletionBlock: {error, _ in
@@ -80,7 +82,8 @@ final class DatabaseManager{
                                        "postal_code":user.address.postalCode,
                                        "country":user.address.country,
                                        "latitude":user.address.latitude,
-                                       "longitude":user.address.longitude]
+                                       "longitude":user.address.longitude],
+                            "type": user.type
                         ]
                     ]
                     strongSelf.database.child("hospitals").setValue(newCollection,withCompletionBlock: {error, _ in
@@ -134,7 +137,7 @@ struct MedAppHospital{
     var email: String
     var mobileNumber: String
     var address: Address
-    
+    var type: String
     
     var safeEmail: String{
         var safeEmail = email.replacingOccurrences(of: ".", with: "-")

@@ -65,7 +65,7 @@ class RegisterVC: UIViewController {
         }
         else{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "HospitalInfoRegisterStory") as! HospitalInfoVC
-            vc.hospitalInfo = MedAppHospital(name: name, email: email, mobileNumber: mobile, address: Address(addressLine1: "", addressLine2: "", city: "", state: "", postalCode: "", country: "",latitude: 0.00,longitude: 0.00))
+            vc.hospitalInfo = MedAppHospital(name: name, email: email, mobileNumber: mobile, address: Address(addressLine1: "", addressLine2: "", city: "", state: "", postalCode: "", country: "",latitude: 0.00,longitude: 0.00),type: "")
             vc.userCredentials = ["email" : email,"pass" : pass]
             self.navigationController?.pushViewController(vc, animated: true)
         }

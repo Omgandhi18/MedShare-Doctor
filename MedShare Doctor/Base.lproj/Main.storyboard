@@ -3,6 +3,7 @@
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -345,73 +346,83 @@ and you can edit it anytime.</string>
                                 <color key="textColor" name="Main"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="CRc-2a-xHg">
-                                <rect key="frame" x="30" y="174.5" width="315" height="360"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="CRc-2a-xHg">
+                                <rect key="frame" x="30" y="160.5" width="315" height="376"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Address Line 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8y4-DB-YVG">
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Address Line 1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8y4-DB-YVG">
                                         <rect key="frame" x="0.0" y="0.0" width="315" height="40"/>
                                         <color key="backgroundColor" name="Grey"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="dQ5-zx-oNM"/>
                                         </constraints>
-                                        <color key="textColor" name="DarkTeal"/>
+                                        <color key="textColor" name="Main"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Address Line 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hyr-oU-Qo9">
-                                        <rect key="frame" x="0.0" y="64" width="315" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Address Line 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Hyr-oU-Qo9">
+                                        <rect key="frame" x="0.0" y="56" width="315" height="40"/>
                                         <color key="backgroundColor" name="Grey"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="w1f-8M-uQS"/>
                                         </constraints>
-                                        <color key="textColor" name="DarkTeal"/>
+                                        <color key="textColor" name="Main"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4aB-pH-B0B">
-                                        <rect key="frame" x="0.0" y="128" width="315" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4aB-pH-B0B">
+                                        <rect key="frame" x="0.0" y="112" width="315" height="40"/>
                                         <color key="backgroundColor" name="Grey"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="CmP-at-Sis"/>
                                         </constraints>
-                                        <color key="textColor" name="DarkTeal"/>
+                                        <color key="textColor" name="Main"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fCs-6c-fOK">
-                                        <rect key="frame" x="0.0" y="192" width="315" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fCs-6c-fOK">
+                                        <rect key="frame" x="0.0" y="168" width="315" height="40"/>
                                         <color key="backgroundColor" name="Grey"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Sbn-cf-G4h"/>
                                         </constraints>
-                                        <color key="textColor" name="DarkTeal"/>
+                                        <color key="textColor" name="Main"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Postal Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mye-hC-vh0">
-                                        <rect key="frame" x="0.0" y="256" width="315" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Postal Code" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Mye-hC-vh0">
+                                        <rect key="frame" x="0.0" y="224" width="315" height="40"/>
                                         <color key="backgroundColor" name="Grey"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="OlI-IH-Ewd"/>
                                         </constraints>
-                                        <color key="textColor" name="DarkTeal"/>
+                                        <color key="textColor" name="Main"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UZZ-jM-1nb">
-                                        <rect key="frame" x="0.0" y="320" width="315" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter Country" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UZZ-jM-1nb">
+                                        <rect key="frame" x="0.0" y="280" width="315" height="40"/>
                                         <color key="backgroundColor" name="Grey"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="rzj-z1-Xnn"/>
                                         </constraints>
-                                        <color key="textColor" name="DarkTeal"/>
+                                        <color key="textColor" name="Main"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type of Hospital" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cJn-s1-uGG">
+                                        <rect key="frame" x="0.0" y="336" width="315" height="40"/>
+                                        <color key="backgroundColor" name="Grey"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="UvD-iQ-DcK"/>
+                                        </constraints>
+                                        <color key="textColor" name="Main"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWK-Vn-lmp">
-                                <rect key="frame" x="30" y="558.5" width="315" height="50"/>
+                                <rect key="frame" x="30" y="560.5" width="315" height="50"/>
                                 <color key="backgroundColor" name="Main"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TnB-6a-1Ra"/>
@@ -431,7 +442,7 @@ and you can edit it anytime.</string>
                         <constraints>
                             <constraint firstItem="yaR-fB-cjx" firstAttribute="top" secondItem="dun-xy-ttz" secondAttribute="top" constant="16" id="17f-lu-7ce"/>
                             <constraint firstItem="CRc-2a-xHg" firstAttribute="leading" secondItem="dun-xy-ttz" secondAttribute="leading" constant="30" id="4hX-6X-JVJ"/>
-                            <constraint firstItem="CRc-2a-xHg" firstAttribute="top" secondItem="Y67-6X-9m3" secondAttribute="bottom" constant="30" id="5Nc-3Z-Thz"/>
+                            <constraint firstItem="CRc-2a-xHg" firstAttribute="top" secondItem="Y67-6X-9m3" secondAttribute="bottom" constant="16" id="5Nc-3Z-Thz"/>
                             <constraint firstItem="dun-xy-ttz" firstAttribute="trailing" secondItem="Y67-6X-9m3" secondAttribute="trailing" constant="30" id="B1B-SD-XYO"/>
                             <constraint firstItem="Y67-6X-9m3" firstAttribute="leading" secondItem="dun-xy-ttz" secondAttribute="leading" constant="30" id="JF9-M6-XDk"/>
                             <constraint firstItem="wWK-Vn-lmp" firstAttribute="leading" secondItem="dun-xy-ttz" secondAttribute="leading" constant="30" id="JXA-2A-HLk"/>
@@ -451,11 +462,82 @@ and you can edit it anytime.</string>
                         <outlet property="txtCountry" destination="UZZ-jM-1nb" id="IQ0-zs-gSf"/>
                         <outlet property="txtPostalCode" destination="Mye-hC-vh0" id="eJK-6j-2n9"/>
                         <outlet property="txtState" destination="fCs-6c-fOK" id="6JN-MW-NrJ"/>
+                        <outlet property="txtType" destination="cJn-s1-uGG" id="ZOB-2M-gQH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iGe-H6-5Dh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3798" y="-18"/>
+        </scene>
+        <!--MapVC-->
+        <scene sceneID="u1D-x5-fst">
+            <objects>
+                <viewController storyboardIdentifier="mapStory" id="odW-iK-A7t" customClass="MapVC" customModule="MedShare_Doctor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XnH-aO-bX8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ewG-h1-pWN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="UE1-Ol-PzB">
+                                <rect key="frame" x="30" y="36" width="315" height="56"/>
+                                <color key="backgroundColor" name="Grey"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="odW-iK-A7t" id="isM-GG-Og3"/>
+                                </connections>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhG-5j-phL">
+                                <rect key="frame" x="30" y="552" width="315" height="75"/>
+                                <color key="backgroundColor" name="Main"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="7KQ-0m-q2b"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="32"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnRegister:" destination="odW-iK-A7t" eventType="touchUpInside" id="cjT-f4-mxl"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="location" translatesAutoresizingMaskIntoConstraints="NO" id="ua7-Ng-GdX">
+                                <rect key="frame" x="162.5" y="308.5" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="dke-ba-ieo"/>
+                                    <constraint firstAttribute="height" constant="50" id="xvc-2t-xJT"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TxE-BG-NnB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UE1-Ol-PzB" firstAttribute="trailing" secondItem="TxE-BG-NnB" secondAttribute="trailing" constant="-30" id="AnB-qn-CIg"/>
+                            <constraint firstItem="ua7-Ng-GdX" firstAttribute="centerX" secondItem="XnH-aO-bX8" secondAttribute="centerX" id="CIZ-Dv-d9M"/>
+                            <constraint firstItem="ewG-h1-pWN" firstAttribute="leading" secondItem="TxE-BG-NnB" secondAttribute="leading" id="JSN-zc-Xpy"/>
+                            <constraint firstItem="TxE-BG-NnB" firstAttribute="trailing" secondItem="fhG-5j-phL" secondAttribute="trailing" constant="30" id="KD4-BS-F2u"/>
+                            <constraint firstItem="ua7-Ng-GdX" firstAttribute="centerY" secondItem="XnH-aO-bX8" secondAttribute="centerY" id="Mmg-7H-xmn"/>
+                            <constraint firstItem="TxE-BG-NnB" firstAttribute="trailing" secondItem="ewG-h1-pWN" secondAttribute="trailing" id="N6d-WU-pEB"/>
+                            <constraint firstAttribute="bottom" secondItem="ewG-h1-pWN" secondAttribute="bottom" id="VZZ-NV-zEw"/>
+                            <constraint firstItem="ewG-h1-pWN" firstAttribute="top" secondItem="XnH-aO-bX8" secondAttribute="top" id="a7y-p2-AZS"/>
+                            <constraint firstItem="fhG-5j-phL" firstAttribute="leading" secondItem="TxE-BG-NnB" secondAttribute="leading" constant="30" id="bR3-Y4-FZw"/>
+                            <constraint firstItem="UE1-Ol-PzB" firstAttribute="leading" secondItem="TxE-BG-NnB" secondAttribute="leading" constant="30" id="q2J-2M-HBo"/>
+                            <constraint firstItem="UE1-Ol-PzB" firstAttribute="top" secondItem="TxE-BG-NnB" secondAttribute="top" constant="16" id="tAx-05-WOc"/>
+                            <constraint firstItem="TxE-BG-NnB" firstAttribute="bottom" secondItem="fhG-5j-phL" secondAttribute="bottom" constant="40" id="vc8-M5-ldf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnRegister" destination="fhG-5j-phL" id="Dnu-w0-GmV"/>
+                        <outlet property="mapView" destination="ewG-h1-pWN" id="LeM-NK-K87"/>
+                        <outlet property="searchBar" destination="UE1-Ol-PzB" id="NvU-hE-BT3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iGA-EY-yTn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4686" y="-18"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Jgx-CZ-5tw">
@@ -478,11 +560,9 @@ and you can edit it anytime.</string>
     </scenes>
     <resources>
         <image name="MedShare" width="500" height="500"/>
-        <namedColor name="DarkTeal">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
+        <image name="location" width="30" height="30"/>
         <namedColor name="Grey">
-            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Main">
             <color red="0.42745098039215684" green="0.40784313725490196" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

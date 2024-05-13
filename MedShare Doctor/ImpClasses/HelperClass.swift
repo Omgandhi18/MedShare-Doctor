@@ -120,5 +120,8 @@ extension UITextField{
         
         self.leftView = imageView
     }
-    
+    func cornerRadius(radius: CGFloat){
+        self.layer.cornerRadius = 16
+        self.layer.masksToBounds = true
+    }
 }
