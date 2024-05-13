@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAA570lyRWqG0Xb0TprOcQFnIKcX5upBsA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>136021271439</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.omgandhi.MedShare-Doctor</string>
+	<key>PROJECT_ID</key>
+	<string>medshare-7024a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>medshare-7024a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:136021271439:ios:b58fa7ab9ca29411f6a1fa</string>
+	<key>DATABASE_URL</key>
+	<string>https://medshare-7024a-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

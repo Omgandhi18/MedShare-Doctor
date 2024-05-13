@@ -1,0 +1,6 @@
+framework module Pods_MedShare_DoctorTests {
+  umbrella header "Pods-MedShare DoctorTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
