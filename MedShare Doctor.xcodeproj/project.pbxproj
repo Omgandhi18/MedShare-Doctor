@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0B2670C2BF21B53006BCB3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2670B2BF21B53006BCB3A /* AppDelegate.swift */; };
+		C0B2670E2BF21B53006BCB3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2670D2BF21B53006BCB3A /* SceneDelegate.swift */; };
+		C0B267102BF21B53006BCB3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2670F2BF21B53006BCB3A /* ViewController.swift */; };
+		C0B267132BF21B53006BCB3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C0B267122BF21B53006BCB3A /* Base */; };
+		C0B267152BF21B54006BCB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B267142BF21B54006BCB3A /* Assets.xcassets */; };
+		C0B267182BF21B54006BCB3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C0B267172BF21B54006BCB3A /* Base */; };
+		C0B267232BF21B54006BCB3A /* MedShare_DoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B267222BF21B54006BCB3A /* MedShare_DoctorTests.swift */; };
+		C0B2672D2BF21B54006BCB3A /* MedShare_DoctorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2672C2BF21B54006BCB3A /* MedShare_DoctorUITests.swift */; };
+		C0B2672F2BF21B54006BCB3A /* MedShare_DoctorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2672E2BF21B54006BCB3A /* MedShare_DoctorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0B2671F2BF21B54006BCB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0B267002BF21B53006BCB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0B267072BF21B53006BCB3A;
+			remoteInfo = "MedShare Doctor";
+		};
+		C0B267292BF21B54006BCB3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0B267002BF21B53006BCB3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0B267072BF21B53006BCB3A;
+			remoteInfo = "MedShare Doctor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0B267082BF21B53006BCB3A /* MedShare Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MedShare Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B2670B2BF21B53006BCB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0B2670D2BF21B53006BCB3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0B2670F2BF21B53006BCB3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0B267122BF21B53006BCB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0B267142BF21B54006BCB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0B267172BF21B54006BCB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0B267192BF21B54006BCB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0B2671E2BF21B54006BCB3A /* MedShare DoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MedShare DoctorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B267222BF21B54006BCB3A /* MedShare_DoctorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedShare_DoctorTests.swift; sourceTree = "<group>"; };
+		C0B267282BF21B54006BCB3A /* MedShare DoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MedShare DoctorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B2672C2BF21B54006BCB3A /* MedShare_DoctorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedShare_DoctorUITests.swift; sourceTree = "<group>"; };
+		C0B2672E2BF21B54006BCB3A /* MedShare_DoctorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedShare_DoctorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0B267052BF21B53006BCB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B2671B2BF21B54006BCB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B267252BF21B54006BCB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0B266FF2BF21B53006BCB3A = {
+			isa = PBXGroup;
+			children = (
+				C0B2670A2BF21B53006BCB3A /* MedShare Doctor */,
+				C0B267212BF21B54006BCB3A /* MedShare DoctorTests */,
+				C0B2672B2BF21B54006BCB3A /* MedShare DoctorUITests */,
+				C0B267092BF21B53006BCB3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0B267092BF21B53006BCB3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0B267082BF21B53006BCB3A /* MedShare Doctor.app */,
+				C0B2671E2BF21B54006BCB3A /* MedShare DoctorTests.xctest */,
+				C0B267282BF21B54006BCB3A /* MedShare DoctorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0B2670A2BF21B53006BCB3A /* MedShare Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				C0B2670B2BF21B53006BCB3A /* AppDelegate.swift */,
+				C0B2670D2BF21B53006BCB3A /* SceneDelegate.swift */,
+				C0B2670F2BF21B53006BCB3A /* ViewController.swift */,
+				C0B267112BF21B53006BCB3A /* Main.storyboard */,
+				C0B267142BF21B54006BCB3A /* Assets.xcassets */,
+				C0B267162BF21B54006BCB3A /* LaunchScreen.storyboard */,
+				C0B267192BF21B54006BCB3A /* Info.plist */,
+			);
+			path = "MedShare Doctor";
+			sourceTree = "<group>";
+		};
+		C0B267212BF21B54006BCB3A /* MedShare DoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0B267222BF21B54006BCB3A /* MedShare_DoctorTests.swift */,
+			);
+			path = "MedShare DoctorTests";
+			sourceTree = "<group>";
+		};
+		C0B2672B2BF21B54006BCB3A /* MedShare DoctorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0B2672C2BF21B54006BCB3A /* MedShare_DoctorUITests.swift */,
+				C0B2672E2BF21B54006BCB3A /* MedShare_DoctorUITestsLaunchTests.swift */,
+			);
+			path = "MedShare DoctorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0B267072BF21B53006BCB3A /* MedShare Doctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B267322BF21B54006BCB3A /* Build configuration list for PBXNativeTarget "MedShare Doctor" */;
+			buildPhases = (
+				C0B267042BF21B53006BCB3A /* Sources */,
+				C0B267052BF21B53006BCB3A /* Frameworks */,
+				C0B267062BF21B53006BCB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MedShare Doctor";
+			productName = "MedShare Doctor";
+			productReference = C0B267082BF21B53006BCB3A /* MedShare Doctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0B2671D2BF21B54006BCB3A /* MedShare DoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B267352BF21B54006BCB3A /* Build configuration list for PBXNativeTarget "MedShare DoctorTests" */;
+			buildPhases = (
+				C0B2671A2BF21B54006BCB3A /* Sources */,
+				C0B2671B2BF21B54006BCB3A /* Frameworks */,
+				C0B2671C2BF21B54006BCB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B267202BF21B54006BCB3A /* PBXTargetDependency */,
+			);
+			name = "MedShare DoctorTests";
+			productName = "MedShare DoctorTests";
+			productReference = C0B2671E2BF21B54006BCB3A /* MedShare DoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0B267272BF21B54006BCB3A /* MedShare DoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0B267382BF21B54006BCB3A /* Build configuration list for PBXNativeTarget "MedShare DoctorUITests" */;
+			buildPhases = (
+				C0B267242BF21B54006BCB3A /* Sources */,
+				C0B267252BF21B54006BCB3A /* Frameworks */,
+				C0B267262BF21B54006BCB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B2672A2BF21B54006BCB3A /* PBXTargetDependency */,
+			);
+			name = "MedShare DoctorUITests";
+			productName = "MedShare DoctorUITests";
+			productReference = C0B267282BF21B54006BCB3A /* MedShare DoctorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0B267002BF21B53006BCB3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					C0B267072BF21B53006BCB3A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					C0B2671D2BF21B54006BCB3A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C0B267072BF21B53006BCB3A;
+					};
+					C0B267272BF21B54006BCB3A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = C0B267072BF21B53006BCB3A;
+					};
+				};
+			};
+			buildConfigurationList = C0B267032BF21B53006BCB3A /* Build configuration list for PBXProject "MedShare Doctor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0B266FF2BF21B53006BCB3A;
+			productRefGroup = C0B267092BF21B53006BCB3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0B267072BF21B53006BCB3A /* MedShare Doctor */,
+				C0B2671D2BF21B54006BCB3A /* MedShare DoctorTests */,
+				C0B267272BF21B54006BCB3A /* MedShare DoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0B267062BF21B53006BCB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B267152BF21B54006BCB3A /* Assets.xcassets in Resources */,
+				C0B267182BF21B54006BCB3A /* Base in Resources */,
+				C0B267132BF21B53006BCB3A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B2671C2BF21B54006BCB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B267262BF21B54006BCB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0B267042BF21B53006BCB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B267102BF21B53006BCB3A /* ViewController.swift in Sources */,
+				C0B2670C2BF21B53006BCB3A /* AppDelegate.swift in Sources */,
+				C0B2670E2BF21B53006BCB3A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B2671A2BF21B54006BCB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B267232BF21B54006BCB3A /* MedShare_DoctorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0B267242BF21B54006BCB3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B2672F2BF21B54006BCB3A /* MedShare_DoctorUITestsLaunchTests.swift in Sources */,
+				C0B2672D2BF21B54006BCB3A /* MedShare_DoctorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0B267202BF21B54006BCB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0B267072BF21B53006BCB3A /* MedShare Doctor */;
+			targetProxy = C0B2671F2BF21B54006BCB3A /* PBXContainerItemProxy */;
+		};
+		C0B2672A2BF21B54006BCB3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0B267072BF21B53006BCB3A /* MedShare Doctor */;
+			targetProxy = C0B267292BF21B54006BCB3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0B267112BF21B53006BCB3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0B267122BF21B53006BCB3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0B267162BF21B54006BCB3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0B267172BF21B54006BCB3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0B267302BF21B54006BCB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0B267312BF21B54006BCB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0B267332BF21B54006BCB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MedShare Doctor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.MedShare-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0B267342BF21B54006BCB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MedShare Doctor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.MedShare-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0B267362BF21B54006BCB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.MedShare-DoctorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedShare Doctor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedShare Doctor";
+			};
+			name = Debug;
+		};
+		C0B267372BF21B54006BCB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.MedShare-DoctorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedShare Doctor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MedShare Doctor";
+			};
+			name = Release;
+		};
+		C0B267392BF21B54006BCB3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.MedShare-DoctorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MedShare Doctor";
+			};
+			name = Debug;
+		};
+		C0B2673A2BF21B54006BCB3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.MedShare-DoctorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MedShare Doctor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0B267032BF21B53006BCB3A /* Build configuration list for PBXProject "MedShare Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B267302BF21B54006BCB3A /* Debug */,
+				C0B267312BF21B54006BCB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B267322BF21B54006BCB3A /* Build configuration list for PBXNativeTarget "MedShare Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B267332BF21B54006BCB3A /* Debug */,
+				C0B267342BF21B54006BCB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B267352BF21B54006BCB3A /* Build configuration list for PBXNativeTarget "MedShare DoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B267362BF21B54006BCB3A /* Debug */,
+				C0B267372BF21B54006BCB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0B267382BF21B54006BCB3A /* Build configuration list for PBXNativeTarget "MedShare DoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B267392BF21B54006BCB3A /* Debug */,
+				C0B2673A2BF21B54006BCB3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0B267002BF21B53006BCB3A /* Project object */;
+}
