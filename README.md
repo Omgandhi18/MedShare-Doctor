@@ -29,3 +29,5 @@ To get started with MedShare Doctor, follow these steps:
 4. Run the application:
 - Choose a simulator or connect your iOS device.
 - Click on the play button in Xcode to build and run the application.
+
+**Link to MedShare Patient Repo:-** https://github.com/Omgandhi18/MedShare-Patient
