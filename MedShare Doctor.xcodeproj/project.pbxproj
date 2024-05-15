@@ -10,6 +10,14 @@
 		236462B436945A15883DE8CA /* Pods_MedShare_Doctor_MedShare_DoctorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E993D727991B1F992AD8EF /* Pods_MedShare_Doctor_MedShare_DoctorUITests.framework */; };
 		324F71DF0C72CA93F91214BE /* Pods_MedShare_DoctorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C1F2B34C7EB1BB1834E1FB5 /* Pods_MedShare_DoctorTests.framework */; };
 		9846BD6BB9EA6F868D4AA149 /* Pods_MedShare_Doctor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D0425AD2021E2D99A6883B /* Pods_MedShare_Doctor.framework */; };
+		C005E4B32BF4E07A00AB72D3 /* MedShareDocGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = C005E4B22BF4E07A00AB72D3 /* MedShareDocGif.gif */; };
+		C005E4B52BF4E5AB00AB72D3 /* AppointmentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005E4B42BF4E5AB00AB72D3 /* AppointmentDetailsVC.swift */; };
+		C005E4B72BF4F0C300AB72D3 /* PatientInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C005E4B62BF4F0C300AB72D3 /* PatientInfoVC.swift */; };
+		C012995B2BF378D200D46C93 /* AppointmentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012995A2BF378D200D46C93 /* AppointmentsVC.swift */; };
+		C012995D2BF378E000D46C93 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012995C2BF378E000D46C93 /* ProfileVC.swift */; };
+		C012995F2BF379D200D46C93 /* IncomingAppointmentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012995E2BF379D200D46C93 /* IncomingAppointmentsCell.swift */; };
+		C01299612BF379ED00D46C93 /* BookedAppointmentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01299602BF379ED00D46C93 /* BookedAppointmentsCell.swift */; };
+		C0857BA22BF4FAF20084AF8D /* AdjustAppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0857BA12BF4FAF20084AF8D /* AdjustAppointmentVC.swift */; };
 		C0B2670C2BF21B53006BCB3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2670B2BF21B53006BCB3A /* AppDelegate.swift */; };
 		C0B2670E2BF21B53006BCB3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2670D2BF21B53006BCB3A /* SceneDelegate.swift */; };
 		C0B267102BF21B53006BCB3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B2670F2BF21B53006BCB3A /* ViewController.swift */; };
@@ -53,6 +61,14 @@
 		6369999D170D6FF5C1126690 /* Pods-MedShare Doctor-MedShare DoctorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedShare Doctor-MedShare DoctorUITests.release.xcconfig"; path = "Target Support Files/Pods-MedShare Doctor-MedShare DoctorUITests/Pods-MedShare Doctor-MedShare DoctorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		84E993D727991B1F992AD8EF /* Pods_MedShare_Doctor_MedShare_DoctorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedShare_Doctor_MedShare_DoctorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1F2B34C7EB1BB1834E1FB5 /* Pods_MedShare_DoctorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedShare_DoctorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C005E4B22BF4E07A00AB72D3 /* MedShareDocGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MedShareDocGif.gif; sourceTree = "<group>"; };
+		C005E4B42BF4E5AB00AB72D3 /* AppointmentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentDetailsVC.swift; sourceTree = "<group>"; };
+		C005E4B62BF4F0C300AB72D3 /* PatientInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientInfoVC.swift; sourceTree = "<group>"; };
+		C012995A2BF378D200D46C93 /* AppointmentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsVC.swift; sourceTree = "<group>"; };
+		C012995C2BF378E000D46C93 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		C012995E2BF379D200D46C93 /* IncomingAppointmentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingAppointmentsCell.swift; sourceTree = "<group>"; };
+		C01299602BF379ED00D46C93 /* BookedAppointmentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedAppointmentsCell.swift; sourceTree = "<group>"; };
+		C0857BA12BF4FAF20084AF8D /* AdjustAppointmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustAppointmentVC.swift; sourceTree = "<group>"; };
 		C0B267082BF21B53006BCB3A /* MedShare Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MedShare Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0B2670B2BF21B53006BCB3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0B2670D2BF21B53006BCB3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +169,7 @@
 		C0B2670A2BF21B53006BCB3A /* MedShare Doctor */ = {
 			isa = PBXGroup;
 			children = (
+				C005E4B22BF4E07A00AB72D3 /* MedShareDocGif.gif */,
 				C0B267412BF21CC6006BCB3A /* ImpClasses */,
 				C0B267402BF21CC0006BCB3A /* Controllers */,
 				C0B2673F2BF21CBB006BCB3A /* Views */,
@@ -188,6 +205,8 @@
 		C0B2673F2BF21CBB006BCB3A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C012995E2BF379D200D46C93 /* IncomingAppointmentsCell.swift */,
+				C01299602BF379ED00D46C93 /* BookedAppointmentsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,6 +218,11 @@
 				C0B267442BF22024006BCB3A /* RegisterVC.swift */,
 				C0B267462BF2202C006BCB3A /* HospitalInfoVC.swift */,
 				C0B267482BF22033006BCB3A /* MapVC.swift */,
+				C012995A2BF378D200D46C93 /* AppointmentsVC.swift */,
+				C012995C2BF378E000D46C93 /* ProfileVC.swift */,
+				C005E4B42BF4E5AB00AB72D3 /* AppointmentDetailsVC.swift */,
+				C005E4B62BF4F0C300AB72D3 /* PatientInfoVC.swift */,
+				C0857BA12BF4FAF20084AF8D /* AdjustAppointmentVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -324,6 +348,7 @@
 				C0B267152BF21B54006BCB3A /* Assets.xcassets in Resources */,
 				C0B2673E2BF21C92006BCB3A /* GoogleService-Info.plist in Resources */,
 				C0B267182BF21B54006BCB3A /* Base in Resources */,
+				C005E4B32BF4E07A00AB72D3 /* MedShareDocGif.gif in Resources */,
 				C0B267132BF21B53006BCB3A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,13 +479,20 @@
 			files = (
 				C0B2674B2BF22176006BCB3A /* DatabaseManager.swift in Sources */,
 				C0B267472BF2202C006BCB3A /* HospitalInfoVC.swift in Sources */,
+				C012995B2BF378D200D46C93 /* AppointmentsVC.swift in Sources */,
 				C0B267102BF21B53006BCB3A /* ViewController.swift in Sources */,
 				C0B2674D2BF22562006BCB3A /* HelperClass.swift in Sources */,
 				C0B2670C2BF21B53006BCB3A /* AppDelegate.swift in Sources */,
 				C0B267432BF22019006BCB3A /* LoginVC.swift in Sources */,
+				C0857BA22BF4FAF20084AF8D /* AdjustAppointmentVC.swift in Sources */,
+				C005E4B72BF4F0C300AB72D3 /* PatientInfoVC.swift in Sources */,
 				C0B267492BF22033006BCB3A /* MapVC.swift in Sources */,
 				C0B2670E2BF21B53006BCB3A /* SceneDelegate.swift in Sources */,
+				C012995D2BF378E000D46C93 /* ProfileVC.swift in Sources */,
 				C0B267452BF22024006BCB3A /* RegisterVC.swift in Sources */,
+				C012995F2BF379D200D46C93 /* IncomingAppointmentsCell.swift in Sources */,
+				C01299612BF379ED00D46C93 /* BookedAppointmentsCell.swift in Sources */,
+				C005E4B52BF4E5AB00AB72D3 /* AppointmentDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

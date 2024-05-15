@@ -15,6 +15,7 @@ pod 'Firebase/Core'
   pod 'Firebase/Storage'
   pod 'Firebase/Analytics'
 pod 'lottie-ios'
+pod 'SDWebImage'
 
   target 'MedShare DoctorTests' do
     inherit! :search_paths
